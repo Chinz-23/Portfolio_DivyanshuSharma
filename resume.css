@@ -17,13 +17,12 @@ body {
 #body-header {
   height: auto;
   padding-bottom: 170px;
-  opacity:1;
   background-image: url("image/header_background.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   padding-top: 1.2rem;
-}
+} 
 
 .dropdown {
   display: none;
@@ -648,7 +647,7 @@ button:focus {
     list-style: none;
   }
   .dropdown {
-    display: initial;
+    display: flex;
     /* justify-content: flex-end; */
   }
   .dropdown-menu {
@@ -686,7 +685,7 @@ button:focus {
     background: #00000071;
   }
 
-  ul li:hover ul.dropdown-menu {
+  .icon:hover ul.dropdown-menu {
     display: block;
   }
 }
