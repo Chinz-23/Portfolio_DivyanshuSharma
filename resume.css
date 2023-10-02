@@ -18,7 +18,7 @@ body {
   height: auto;
   padding-bottom: 170px;
   opacity: 0.8;
-  background-image: url('image/header_background.jpg');
+  background-image: url("image/header_background.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
