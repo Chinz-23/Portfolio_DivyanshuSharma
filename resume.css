@@ -17,6 +17,7 @@ body {
 #body-header {
   height: auto;
   padding-bottom: 170px;
+  opacity:1;
   background-image: url("image/header_background.jpg");
   background-size: cover;
   background-position: center;
